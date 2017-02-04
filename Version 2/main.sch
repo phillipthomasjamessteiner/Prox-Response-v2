@@ -4054,10 +4054,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R13" library="resistor" deviceset="R-US_" device="0204/7" value="3kΩ"/>
 <part name="R14" library="resistor" deviceset="R-US_" device="0204/7" value="3kΩ"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="R15" library="resistor" deviceset="R-US_" device="0204/7" value="68Ω"/>
-<part name="R16" library="resistor" deviceset="R-US_" device="0204/7" value="68Ω"/>
-<part name="R17" library="resistor" deviceset="R-US_" device="0204/7" value="68Ω"/>
-<part name="R18" library="resistor" deviceset="R-US_" device="0204/7" value="68Ω"/>
+<part name="R15" library="resistor" deviceset="R-US_" device="0204/7" value="IR"/>
+<part name="R16" library="resistor" deviceset="R-US_" device="0204/7" value="IR"/>
+<part name="R17" library="resistor" deviceset="R-US_" device="0204/7" value="IR"/>
+<part name="R18" library="resistor" deviceset="R-US_" device="0204/7" value="IR"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -4264,6 +4264,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-48.26" y1="86.36" x2="-48.26" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="93.98" x2="-40.64" y2="93.98" width="0.1524" layer="91"/>
 <label x="-40.64" y="93.98" size="1.778" layer="95" xref="yes"/>
+<junction x="-48.26" y="86.36"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4452,8 +4453,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="48.26" y="48.26" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="5.08" x2="25.4" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="5.08" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="C" pin="OUT"/>
 <wire x1="25.4" y1="12.7" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
@@ -4461,6 +4460,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="IC2" gate="C" pin="-IN"/>
 <wire x1="25.4" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
 <junction x="25.4" y="12.7"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="5.08" x2="17.78" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="C" pin="+IN"/>
@@ -4652,6 +4653,12 @@ In this library the device names are the same as the pin names of the symbols, t
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,12.7,83.82,IC1P,V+,5V,,,"/>
+<approved hash="104,1,12.7,68.58,IC1P,V-,GND,,,"/>
+<approved hash="104,1,63.5,83.82,IC2P,V+,5V,,,"/>
+<approved hash="115,1,25.4,8.89,VLOGIC,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
