@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -4026,13 +4026,13 @@ In this library the device names are the same as the pin names of the symbols, t
 </classes>
 <parts>
 <part name="IC1" library="linear" deviceset="LM324" device="N"/>
-<part name="R1" library="resistor" deviceset="R-US_" device="0204/7" value="TRA"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="0204/7" value="68kΩ"/>
 <part name="SV1" library="con-lstb" deviceset="MA08-1" device="" value="Photodiode Connectors"/>
 <part name="SV2" library="con-lstb" deviceset="MA08-1" device="" value="IR LED Connectors"/>
 <part name="SV3" library="con-lstb" deviceset="MA08-1" device="" value="Visual LED Connector"/>
-<part name="R2" library="resistor" deviceset="R-US_" device="0204/7" value="TRA"/>
-<part name="R3" library="resistor" deviceset="R-US_" device="0204/7" value="TRA"/>
-<part name="R4" library="resistor" deviceset="R-US_" device="0204/7" value="TRA"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="0204/7" value="68kΩ"/>
+<part name="R3" library="resistor" deviceset="R-US_" device="0204/7" value="68kΩ"/>
+<part name="R4" library="resistor" deviceset="R-US_" device="0204/7" value="68kΩ"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="IC2" library="linear" deviceset="LM339" device="N"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
@@ -4040,24 +4040,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="Q2" library="transistor-npn" deviceset="BC487*" device=""/>
 <part name="Q3" library="transistor-npn" deviceset="BC487*" device=""/>
 <part name="Q4" library="transistor-npn" deviceset="BC487*" device=""/>
-<part name="R5" library="resistor" deviceset="R-US_" device="0204/7" value="68Ω"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="0204/7" value="68Ω"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="0204/7" value="68Ω"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="0204/7" value="68Ω"/>
-<part name="R9" library="resistor" deviceset="R-US_" device="0204/7" value="3kΩ"/>
-<part name="R10" library="resistor" deviceset="R-US_" device="0204/7" value="3kΩ"/>
-<part name="R11" library="resistor" deviceset="R-US_" device="0204/7" value="3kΩ"/>
-<part name="R12" library="resistor" deviceset="R-US_" device="0204/7" value="3kΩ"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="0204/7" value="100Ω"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="0204/7" value="100Ω"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="0204/7" value="100Ω"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="0204/7" value="100Ω"/>
+<part name="R9" library="resistor" deviceset="R-US_" device="0204/7" value="3k3Ω"/>
+<part name="R10" library="resistor" deviceset="R-US_" device="0204/7" value="3k3Ω"/>
+<part name="R11" library="resistor" deviceset="R-US_" device="0204/7" value="3k3Ω"/>
+<part name="R12" library="resistor" deviceset="R-US_" device="0204/7" value="3k3Ω"/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SV4" library="con-lstb" deviceset="MA04-1" device="" value="Power In"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
-<part name="R13" library="resistor" deviceset="R-US_" device="0204/7" value="3kΩ"/>
-<part name="R14" library="resistor" deviceset="R-US_" device="0204/7" value="3kΩ"/>
+<part name="R13" library="resistor" deviceset="R-US_" device="0204/7" value="3k3Ω"/>
+<part name="R14" library="resistor" deviceset="R-US_" device="0204/7" value="3k3Ω"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="R15" library="resistor" deviceset="R-US_" device="0204/7" value="IR"/>
-<part name="R16" library="resistor" deviceset="R-US_" device="0204/7" value="IR"/>
-<part name="R17" library="resistor" deviceset="R-US_" device="0204/7" value="IR"/>
-<part name="R18" library="resistor" deviceset="R-US_" device="0204/7" value="IR"/>
+<part name="R15" library="resistor" deviceset="R-US_" device="0204/7" value="44Ω"/>
+<part name="R16" library="resistor" deviceset="R-US_" device="0204/7" value="44Ω"/>
+<part name="R17" library="resistor" deviceset="R-US_" device="0204/7" value="44Ω"/>
+<part name="R18" library="resistor" deviceset="R-US_" device="0204/7" value="44Ω"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -4415,7 +4415,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="-66.04" y="86.36" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="IRVCC" class="0">
+<net name="+1.84V" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="5"/>
 <wire x1="-73.66" y1="12.7" x2="-68.58" y2="12.7" width="0.1524" layer="91"/>
