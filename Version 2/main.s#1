@@ -4667,6 +4667,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <approved hash="104,1,12.7,83.82,IC1P,V+,5V,,,"/>
 <approved hash="104,1,12.7,68.58,IC1P,V-,GND,,,"/>
 <approved hash="104,1,63.5,83.82,IC2P,V+,5V,,,"/>
+<approved hash="115,1,25.4,8.89,VLOGIC,,,,,"/>
 </errors>
 </schematic>
 </drawing>
